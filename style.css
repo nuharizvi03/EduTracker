@@ -1,0 +1,263 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFF9F4; /* Muted peach/beige */
+    color: #2b2b2b;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #5e8374; /* Dusty blue/teal */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffe0b3;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn {
+    background-color: #4a6c5c;
+}
+
+.signup-btn {
+    background-color: #3e5950;
+}
+
+.getstarted-btn {
+    background-color: #f4a261;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 30px;
+    background-color: #FFF3E0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #3e3e3e;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 400px;
+}
+
+/* About & Features Sections */
+section {
+    padding: 40px 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about, .features {
+    background-color: #FDF4E3;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.about h2, .features h2 {
+    margin-bottom: 15px;
+    color: #3e3e3e;
+}
+
+.features ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #5e8374;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+}
+
+.footer .social-links img {
+    height: 24px;
+    width: 24px;
+    filter: brightness(0) invert(1); /* Make white on dark bg */
+}
+
+
+
+
+
+/* Login & Signup Form Styling */
+.auth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #FFF9F4;
+    min-height: 80vh;
+}
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 10px;
+    color: #3e3e3e;
+}
+
+.auth-container p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-submit-btn {
+    background-color: #5e8374;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-submit-btn:hover {
+    background-color: #4a6c5c;
+}
+
+.switch-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.switch-link a {
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Style for form input fields and select boxes */
+.auth-form .form-group input,
+.auth-form .form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    background-color: #fff;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+/* Ensure labels look consistent */
+.auth-form .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Adjust margin between form groups */
+.auth-form .form-group {
+    margin-bottom: 18px;
+}
