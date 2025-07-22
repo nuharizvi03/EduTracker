@@ -17,7 +17,7 @@
     .hero {
       text-align: center;
       padding: 80px 20px;
-      background: #fdf4e3 url('images/student-pattern.png') center/cover;
+      /* background: #fdf4e3 url('images/student-pattern.png') center/cover; */
       position: relative;
     }
     .hero::before {
