@@ -9,7 +9,7 @@
     <ul class="nav-links">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="features.php">Features</a></li>
+        <!-- <li><a href="features.php">Features</a></li> -->
         <li><a href="performance-tracker.php">Performance</a></li>
         <li><a href="feedback.php">Feedbacks & Messages</a></li>
     </ul>
