@@ -83,7 +83,7 @@
             <div class="mb-4">
                 <h4 class="text-center mb-3">Select your role to continue</h4>
                 
-                <div class="card role-card student" onclick="selectRole('student')">
+                <div class="card role-card student" onclick="window.location.href='student_dashboard.php'">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 
-                <div class="card role-card teacher" onclick="selectRole('teacher')">
+                <div class="card role-card teacher" onclick="window.location.href='teacher_dashboard.php'">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 
-                <div class="card role-card parent" onclick="selectRole('parent')">
+                <div class="card role-card parent" onclick="window.location.href='parent_dashboard.php'">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
@@ -127,7 +127,7 @@
             </div>
             
             <div class="d-grid gap-2">
-                <button id="continueBtn" class="btn btn-primary" disabled onclick="redirectToDashboard()">
+                <button id="continueBtn" class="btn btn-primary" onclick="window.location.href='index.php'">
                     Continue to Dashboard
                 </button>
             </div>
