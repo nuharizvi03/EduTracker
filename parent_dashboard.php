@@ -10,8 +10,9 @@
         :root {
             --primary: #4361EE;
             --secondary: #4CC9F0;
-            --accent: #F8961E;
-            --success: #38B000;
+            --accent: #f4a261;
+            /* --success: #38B000; */
+            --success: #5e8374;
             --alert: #F94144;
             --light: #F8F9FA;
             --dark: #212529;

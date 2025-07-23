@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduTracker Admin Panel</title>
+  <link rel="stylesheet" href="styleadmin.css"/>
+</head>
+<body>
+  <header>
+    <h1>EduTracker Admin Panel</h1>
+    <button id="logoutBtn">Logout</button>
+  </header>
+
+  <main class="container">
+
+    <!-- System Stats -->
+    <section class="stats">
+      <div class="card">
+        <h3>Active Users</h3>
+        <p id="activeUsers">0</p>
+      </div>
+      <div class="card">
+        <h3>Total Quizzes</h3>
+        <p>89</p>
+      </div>
+    </section>
+
+    <!-- Add User Form -->
+    <section class="add-user-section">
+  <h2>Add New User</h2>
+  <form id="addUserForm" class="add-user-form">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <select id="role" required>
+      <option value="">Role</option>
+      <option value="Admin">Admin</option>
+      <option value="Student">Student</option>
+      <option value="Teacher">Teacher</option>
+    </select>
+    <select id="status" required>
+      <option value="">Status</option>
+      <option value="Active">Active</option>
+      <option value="Inactive">Inactive</option>
+    </select>
+    <button type="submit">Add User</button>
+  </form>
+</section>
+
+
+
+    <!-- Search and Table -->
+    <section>
+      <div class="user-list-header">
+  <h2>User List</h2>
+  <div class="search-wrapper">
+    <input type="text" id="searchInput" placeholder="Search users..." />
+    <span class="search-icon">🔍</span>
+  </div>
+</div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

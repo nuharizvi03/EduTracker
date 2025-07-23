@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary-blue: #4361EE;
-            --accent-orange: #F8961E;
-            --success-green: #38B000;
+            --primary-blue: #5e8374;
+            --accent-orange: #f4a261;
+            --success-green: #5e8374;
             --alert-red: #F94144;
             --light-blue: #4CC9F0;
             --light-gray: #F8F9FA;
@@ -25,7 +25,8 @@
         
         /* Header Styles */
         .dashboard-header {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #3a56d4 100%);
+            /* background: linear-gradient(135deg, var(--primary-blue) 0%, #f4a261 100%); */
+            background: var(--primary-blue);
             color: white;
             padding: 1rem 0;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);

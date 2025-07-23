@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary: #4361EE;
+            --primary: #5e8374;
             --secondary: #4CC9F0;
-            --accent: #F8961E;
-            --success: #38B000;
+            --accent: #f4a261;
+            --success: #5e8374;
             --alert: #F94144;
             --light: #F8F9FA;
             --dark: #212529;
@@ -209,7 +209,8 @@
                     <!-- Class Performance -->
                     <div class="col-lg-8 mb-4">
                         <div class="card h-100">
-                            <div class="card-header" style="background-color: var(--secondary); color: white;">
+                            <div class="card-header" style="background-color: #5e8374; color: white;">
+                            <!-- <div class="card-header" style="background-color: var(--secondary); color: white;"> -->
                                 <h5 class="mb-0">Class Performance Overview</h5>
                             </div>
                             <div class="card-body">
